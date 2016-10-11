@@ -1,6 +1,6 @@
 {-# LANGUAGE OverloadedStrings #-}
 
-module Sound.Tidal.Drum.HowSweat where
+module Sound.Tidal.Drum.HotSweat where
 
 import Sound.Tidal.Context
 
