@@ -10,10 +10,10 @@ bps = (114/120)
 bd = [
   "[c ~ ~ ~][~ ~ c ~][c ~ ~ ~][~ ~ c ~]" :: Pattern String,
   "[~ ~ ~ ~][~ ~ ~ ~][~ ~ ~ ~][c ~ ~ ~]" :: Pattern String
-]
+  ]
 sn = [
   "[~ ~ ~ ~][c ~ ~ ~][~ ~ ~ ~][c ~ ~ ~]" :: Pattern String,
   "[~ ~ ~ ~][c ~ ~ ~][c ~ ~ ~][~ ~ ~ ~]" :: Pattern String
-]
-ch = "[c ~ c ~][c ~ c ~][c ~ c ~][c ~ c ~]" :: Pattern String,
+  ]
+ch = "[c ~ c ~][c ~ c ~][c ~ c ~][c ~ c ~]" :: Pattern String
 oh = "[~ ~ ~ ~][~ ~ ~ ~][~ ~ c/2 ~][~ ~ ~ ~]" :: Pattern String

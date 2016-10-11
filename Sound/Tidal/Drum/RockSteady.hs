@@ -11,8 +11,8 @@ sn = "[~ c ~ ~][c c ~ c][~ c ~ ~][c c ~ c]" :: Pattern String
 ch = [
   "[~ c ~ ~][c ~ c ~][c ~ ~ ~][c ~ c ~]" :: Pattern String,
   "[c ~ ~ ~][c ~ c c][c ~ ~ ~][c ~ c c]" :: Pattern String
-]
+  ]
 oh = [
   "[~ ~ c ~][~ ~ ~ c][~ ~ c ~][~ ~ ~ c]" :: Pattern String,
   "[~ c ~ ~][~ ~ ~ ~][~ ~ c ~][~ ~ ~ ~]" :: Pattern String
-]
+  ]

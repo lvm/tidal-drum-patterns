@@ -9,6 +9,6 @@ bps = (94/120)
 bd = [
   "[c ~ ~ c][~ ~ c c][~ ~ c c][~ c ~ c]" :: Pattern String,
   "[c ~ c c][~ ~ ~ c][c ~ c c][~ c ~ c]" :: Pattern String
-]
+  ]
 sn = "[~ c ~ c][c c ~ c][~ c ~ c][c c ~ c]" :: Pattern String
 cow = "[c ~ c c] ! ! !" :: Pattern String
