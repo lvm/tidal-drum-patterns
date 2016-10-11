@@ -35,3 +35,53 @@ drums $
     # perc "ri"
   ]
 ```
+
+### Modules / Tracks availables
+
+This will print a list of modules available.
+```haskell
+Sound.Tidal.Drum.All
+```
+
+Exposed modules
+
+```haskell
+Sound.Tidal.Drum.Amen
+Sound.Tidal.Drum.BooksOfMoses
+Sound.Tidal.Drum.ChugChugChugALug
+Sound.Tidal.Drum.CissyStrut
+Sound.Tidal.Drum.ColdSweat
+Sound.Tidal.Drum.ComeDancing
+Sound.Tidal.Drum.CowdBell
+Sound.Tidal.Drum.ExpensiveShit
+Sound.Tidal.Drum.ExpressYourself
+Sound.Tidal.Drum.FunkyDrummer
+Sound.Tidal.Drum.FunkyPresident
+Sound.Tidal.Drum.GetUp
+Sound.Tidal.Drum.GrooveMe
+Sound.Tidal.Drum.HaitianDivorce
+Sound.Tidal.Drum.HookAndSling
+Sound.Tidal.Drum.HotSweat
+Sound.Tidal.Drum.IGotTheFeelin
+Sound.Tidal.Drum.IGotYou
+Sound.Tidal.Drum.ItsANewDay
+Sound.Tidal.Drum.KissingMyLove
+Sound.Tidal.Drum.KnocksMeOffMyFeet
+Sound.Tidal.Drum.Lady
+Sound.Tidal.Drum.LadyMarmalade
+Sound.Tidal.Drum.LetAWomanBeAWomanLetAManBeAMan
+Sound.Tidal.Drum.LookKaPyPy
+Sound.Tidal.Drum.MotherPopcorn
+Sound.Tidal.Drum.OOHChild
+Sound.Tidal.Drum.PalmGrease
+Sound.Tidal.Drum.Poptech2010
+Sound.Tidal.Drum.RespectYourself
+Sound.Tidal.Drum.RockSteady
+Sound.Tidal.Drum.StrBtsDcGogo100
+Sound.Tidal.Drum.Superstition
+Sound.Tidal.Drum.SyntheticSubstitution
+Sound.Tidal.Drum.TheFez
+Sound.Tidal.Drum.TheSameBlood
+Sound.Tidal.Drum.TheThrillIsGone
+Sound.Tidal.Drum.UseMe
+```
