@@ -1,0 +1,8 @@
+# 0.2
+
+* Moved all `Pattern String` to `Pattern Int`, this way allows to be used with Super/Classic Dirt + MIDI Synths.
+* Added 3 basic versions of classic styles.
+
+# 0.1
+
+* Initial version
