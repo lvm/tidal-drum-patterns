@@ -11,4 +11,4 @@ bd = [
   "[0 ~ 0 0][~ ~ ~ 0][0 ~ 0 0][~ 0 ~ 0]" :: Pattern Int
   ]
 sn = "[~ 0 ~ 0][0 0 ~ 0][~ 0 ~ 0][0 0 ~ 0]" :: Pattern Int
-0ow = "[0 ~ 0 0] ! ! !" :: Pattern Int
+cow = "[0 ~ 0 0] ! ! !" :: Pattern Int
