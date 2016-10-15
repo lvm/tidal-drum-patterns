@@ -1,5 +1,5 @@
 name:                tidal-drum-patterns
-version:             0.1
+version:             0.2
 -- synopsis:
 -- description:
 homepage:            https://github.com/lvm/tidal-drum-patterns
@@ -53,6 +53,9 @@ library
                        Sound.Tidal.Drum.TheSameBlood
                        Sound.Tidal.Drum.TheThrillIsGone
                        Sound.Tidal.Drum.UseMe
+                       Sound.Tidal.Drum.HipHop
+                       Sound.Tidal.Drum.Breaks
+                       Sound.Tidal.Drum.Jungle
 
   -- other-modules:
   -- other-extensions:
