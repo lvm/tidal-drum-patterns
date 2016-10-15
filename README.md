@@ -15,6 +15,18 @@ cabal clean && cabal configure && cabal build && cabal install
 
 ### Usage
 
+To see the contents of each module, you can use `ghci`'s `:browse`
+
+```haskell
+Prelude> :browse Sound.Tidal.Drum.Amen
+Sound.Tidal.Drum.Amen.bps :: Double
+Sound.Tidal.Drum.Amen.bd :: [Sound.Tidal.Pattern.Pattern Int]
+Sound.Tidal.Drum.Amen.ch :: Sound.Tidal.Pattern.Pattern Int
+Sound.Tidal.Drum.Amen.oh :: Sound.Tidal.Pattern.Pattern Int
+Sound.Tidal.Drum.Amen.sn :: [Sound.Tidal.Pattern.Pattern Int]
+```
+
+In the TidalCycles Environment you can use it like this:
 
 ```haskell
 import Sound.Tidal.Drum.Amen as Am
@@ -24,21 +36,39 @@ let bd = take (length Am.bd) Am.bd
 
 bps (160/120)
 
+-- Using MIDI (in this case using my custom `tidal-midi-gm` module)
+
 drums $
   stack[
-    perc (bd!!0)
-    # perc "bd"
-    # velocity "1",
-    perc (sn!!0)
-    # perc "sn",
-    perc Am.ch
-    # perc "ri"
+    n (bd!!0) # perc "bd",
+    n (sn!!0) # perc "sn",
+    n Am.ch # perc "ri"
+  ]
+
+-- to play the four bars:
+
+drums $
+  stack[
+    slowcat[n (bd!!x) | x <- [0..(length Am.bd)-1]] # perc "bd",
+    slowcat[n (sn!!x) | x <- [0..(length Am.sn)-1]] # perc "sn",
+    n Am.ch # perc "ch"
+    n Am.oh # perc "oh"
+  ]
+
+
+-- or using SuperDirt / Classic Dirt
+
+d1 $
+  stack[
+    n (bd!!0) # s "808bd",
+    n (sn!!0) # s "808sn",
+    n Am.ch # s "808hc"
   ]
 ```
 
 ### Modules / Tracks availables
 
-This will print a list of modules available.
+This will print a list of exposed modules.
 ```haskell
 Sound.Tidal.Drum.All
 ```
@@ -84,4 +114,7 @@ Sound.Tidal.Drum.TheFez
 Sound.Tidal.Drum.TheSameBlood
 Sound.Tidal.Drum.TheThrillIsGone
 Sound.Tidal.Drum.UseMe
+Sound.Tidal.Drum.HipHop
+Sound.Tidal.Drum.Breaks
+Sound.Tidal.Drum.Jungle
 ```
