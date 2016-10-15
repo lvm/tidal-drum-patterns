@@ -6,13 +6,13 @@ import Sound.Tidal.Context
 
 bps = (103/120)
 
-bd = "[~ ~ c ~][c ~ ~ c][~ ~ c ~][c ~ ~ ~]" :: Pattern String
-sn = "[~ c ~ ~][c c ~ c][~ c ~ ~][c c ~ c]" :: Pattern String
+bd = "[~ ~ 0 ~][0 ~ ~ 0][~ ~ 0 ~][0 ~ ~ ~]" :: Pattern Int
+sn = "[~ 0 ~ ~][0 0 ~ 0][~ 0 ~ ~][0 0 ~ 0]" :: Pattern Int
 ch = [
-  "[~ c ~ ~][c ~ c ~][c ~ ~ ~][c ~ c ~]" :: Pattern String,
-  "[c ~ ~ ~][c ~ c c][c ~ ~ ~][c ~ c c]" :: Pattern String
+  "[~ 0 ~ ~][0 ~ 0 ~][0 ~ ~ ~][0 ~ 0 ~]" :: Pattern Int,
+  "[0 ~ ~ ~][0 ~ 0 0][0 ~ ~ ~][0 ~ 0 0]" :: Pattern Int
   ]
 oh = [
-  "[~ ~ c ~][~ ~ ~ c][~ ~ c ~][~ ~ ~ c]" :: Pattern String,
-  "[~ c ~ ~][~ ~ ~ ~][~ ~ c ~][~ ~ ~ ~]" :: Pattern String
+  "[~ ~ 0 ~][~ ~ ~ 0][~ ~ 0 ~][~ ~ ~ 0]" :: Pattern Int,
+  "[~ 0 ~ ~][~ ~ ~ ~][~ ~ 0 ~][~ ~ ~ ~]" :: Pattern Int
   ]

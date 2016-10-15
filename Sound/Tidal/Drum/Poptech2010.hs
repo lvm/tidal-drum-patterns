@@ -7,15 +7,15 @@ import Sound.Tidal.Context
 bps = (84/120)
 
 bd = [
-  "[c ~ ~ ~][~ ~ ~ ~][~ ~ ~ ~][~ ~ ~ ~]" :: Pattern String,
-  "[~ c ~ ~][~ ~ ~ ~][~ ~ ~ ~][~ c c c]" :: Pattern String
+  "[0 ~ ~ ~][~ ~ ~ ~][~ ~ ~ ~][~ ~ ~ ~]" :: Pattern Int,
+  "[~ 0 ~ ~][~ ~ ~ ~][~ ~ ~ ~][~ 0 0 0]" :: Pattern Int
   ]
-sn = "[~ ~ ~ ~][c ~ ~ ~][~ ~ ~ ~][c ~ ~ ~]" :: Pattern String
+sn = "[~ ~ ~ ~][0 ~ ~ ~][~ ~ ~ ~][0 ~ ~ ~]" :: Pattern Int
 ch = [
-  "[~ ~ ~ ~][~ ~ ~ ~][c ~ ~ ~][~ ~ ~ ~]" :: Pattern String,
-  "[c ~ ~ ~][~ ~ ~ ~][c ~ ~ ~][~ ~ ~ ~]" :: Pattern String
+  "[~ ~ ~ ~][~ ~ ~ ~][0 ~ ~ ~][~ ~ ~ ~]" :: Pattern Int,
+  "[0 ~ ~ ~][~ ~ ~ ~][0 ~ ~ ~][~ ~ ~ ~]" :: Pattern Int
   ]
 oh = [
-  "[c ~ ~ ~][~ ~ ~ ~][~ ~ ~ ~][~ ~ ~ ~]" :: Pattern String,
-  "[~ ~ ~ ~][~ ~ ~ ~][~ ~ ~ ~][~ ~ ~ ~]" :: Pattern String
+  "[0 ~ ~ ~][~ ~ ~ ~][~ ~ ~ ~][~ ~ ~ ~]" :: Pattern Int,
+  "[~ ~ ~ ~][~ ~ ~ ~][~ ~ ~ ~][~ ~ ~ ~]" :: Pattern Int
   ]
