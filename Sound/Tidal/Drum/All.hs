@@ -38,5 +38,8 @@ tracks = [
   "TheFez",
   "TheSameBlood",
   "TheThrillIsGone",
-  "UseMe"
+  "UseMe",
+  "HipHop",
+  "Breaks",
+  "Jungle"
   ]
