@@ -16,6 +16,6 @@ sn = [
   "[~ 0 ~ ~] [~ 0 ~ 0]" :: Pattern Int,
   "[~ ~ 0 ~] [~ 0 [~ 0]/2 [~ 0]/2]" :: Pattern Int
   ]
-ch = "[ch ch ch ch] [ch ch ch ch]" :: Pattern Int
-oh = "[~ ~ ~ oh] [~ ~ oh ~]" :: Pattern Int
+0 = "[0 0 0 0] [0 0 0 0]" :: Pattern Int
+0 = "[~ ~ ~ 0] [~ ~ 0 ~]" :: Pattern Int
 
