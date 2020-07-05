@@ -4,8 +4,10 @@ module Sound.Tidal.Drum.TheSameBlood where
 
 import Sound.Tidal.Context
 
-bps = (120/120)
+bps = 2.0166666666666666
 
-bd = "[0 0 ~ ~][~ ~ ~ ~][0 0 ~ ~][~ ~ ~ ~]" :: Pattern Int
-sn = "[~ ~ ~ 0][~ 0 0 ~][~ ~ ~ ~][0 0 0 ~]" :: Pattern Int
-ch = "[0 ~ 0 ~][0 ~ 0 0][0 ~ 0 0][0 ~ 0 0]" :: Pattern Int
+bd = "[bd bd ~ ~] [~ ~ ~ ~] [bd bd ~ ~] [~ ~ ~ ~] "
+sn = "[~ ~ ~ sn] [~ sn sn ~] [~ ~ ~ ~] [sn sn sn ~] "
+ch = "[ch ~ ch ~] [ch ~ ch ch] [ch ~ ch ch] [ch ~ ch ch] "
+
+

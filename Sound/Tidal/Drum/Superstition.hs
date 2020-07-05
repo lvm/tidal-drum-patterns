@@ -4,8 +4,10 @@ module Sound.Tidal.Drum.Superstition where
 
 import Sound.Tidal.Context
 
-bps = (98/120)
+bps = 1.63
 
-bd = "[0 ~ ~ ~][0 ~ ~ ~][0 ~ ~ ~][0 ~ ~ ~]" :: Pattern Int
-sn = "[~ ~ ~ ~][0 ~ ~ ~][~ ~ ~ ~][0 ~ ~ ~]" :: Pattern Int
-ch = "[0 ~ 0 ~][0 ~ 0 0][0 0 0 ~][0 ~ 0 0]" :: Pattern Int
+bd = "[bd ~ ~ ~] [bd ~ ~ ~] [bd ~ ~ ~] [bd ~ ~ ~] "
+sn = "[~ ~ ~ ~] [sn ~ ~ ~] [~ ~ ~ ~] [sn ~ ~ ~] "
+ch = "[ch ~ ch ~] [ch ~ ch ch] [ch ch ch ~] [ch ~ ch ch] "
+
+

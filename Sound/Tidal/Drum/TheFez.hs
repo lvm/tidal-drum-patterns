@@ -4,11 +4,10 @@ module Sound.Tidal.Drum.TheFez where
 
 import Sound.Tidal.Context
 
-bps = (99/120)
+bps = 1.65
 
-bd = [
-  "[0 ~ ~ ~][~ ~ ~ ~][0 ~ ~ ~][~ ~ ~ ~]" :: Pattern Int,
-  "[0 ~ ~ ~][~ ~ ~ ~][0 ~ ~ 0][0 ~ ~ ~]" :: Pattern Int
-  ]
-sn = "[~ 0 ~ 0][0 0 ~ 0][~ 0 ~ 0][0 0 ~ 0]" :: Pattern Int
-ch = "[~ ~ 0 ~][~ ~ 0 ~][~ ~ 0 ~][~ ~ 0 ~]" :: Pattern Int
+bd = "[bd ~ ~ ~] [~ ~ ~ ~] [bd ~ ~ ~] [~ ~ ~ ~] [bd ~ ~ ~] [~ ~ ~ ~] [bd ~ ~ bd] [bd ~ ~ ~] "
+sn = "[~ sn ~ sn] [sn sn ~ sn] [~ sn ~ sn] [sn sn ~ sn] [~ sn ~ sn] [sn sn ~ sn] [~ sn ~ sn] [sn sn ~ sn] "
+ch = "[~ ~ ch ~] [~ ~ ch ~] [~ ~ ch ~] [~ ~ ch ~] [~ ~ ch ~] [~ ~ ch ~] [~ ~ ch ~] [~ ~ ch ~] "
+
+
