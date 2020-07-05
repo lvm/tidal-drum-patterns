@@ -1,7 +1,7 @@
 module Sound.Tidal.Drum.All where
 
 tracks = [
-       "Afro1a"
+       "Afro1a",
        "Afro1b",
        "Afro1c",
        "Afro2a",
@@ -318,5 +318,5 @@ tracks = [
        "UseMe",
        "UseMeAlt",
        "WalkThisWay",
-       "WhenTheLeveeBreaks",
+       "WhenTheLeveeBreaks"
  ]
