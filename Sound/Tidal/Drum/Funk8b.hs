@@ -6,8 +6,8 @@ import Sound.Tidal.Context
 
 bps = 1
 
-bd = "[bd ~ ~ bd] [~ ~ ~ ~] [bd ~ bd bd] [~ ~ ~ ~] "
-oh = "[oh ~ ~ ~] [oh ~ ~ ~] [oh ~ ~ ~] [oh ~ ~ ~] "
-sn = "[~ ~ ~ ~] [~ ~ sn ~] [~ ~ ~ ~] [~ ~ sn sn] "
+bd = "[bd ~ ~ bd] [~ ~ ~ ~] [bd ~ bd bd] [~ ~ ~ ~] " :: Pattern String
+oh = "[oh ~ ~ ~] [oh ~ ~ ~] [oh ~ ~ ~] [oh ~ ~ ~] " :: Pattern String
+sn = "[~ ~ ~ ~] [~ ~ sn ~] [~ ~ ~ ~] [~ ~ sn sn] " :: Pattern String
 
 
