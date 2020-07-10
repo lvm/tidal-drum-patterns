@@ -23,10 +23,10 @@ To see the contents of each module, you can use `ghci`'s `:browse`
 ```haskell
 Prelude> :browse Sound.Tidal.Drum.Amen
 Sound.Tidal.Drum.Amen.bps :: Double
-Sound.Tidal.Drum.Amen.bd :: Sound.Tidal.Pattern.Pattern String
-Sound.Tidal.Drum.Amen.ch :: Sound.Tidal.Pattern.Pattern String
-Sound.Tidal.Drum.Amen.oh :: Sound.Tidal.Pattern.Pattern String
-Sound.Tidal.Drum.Amen.sn :: Sound.Tidal.Pattern.Pattern String
+Sound.Tidal.Drum.Amen.bd :: Sound.Tidal.Pattern.Pattern Bool
+Sound.Tidal.Drum.Amen.ch :: Sound.Tidal.Pattern.Pattern Bool
+Sound.Tidal.Drum.Amen.oh :: Sound.Tidal.Pattern.Pattern Bool
+Sound.Tidal.Drum.Amen.sn :: Sound.Tidal.Pattern.Pattern Bool
 ```
 
 Since each _instrument_ represents a `Pattern Bool`, in the TidalCycles Environment you can use it like this:
