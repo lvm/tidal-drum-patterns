@@ -1,8 +1,7 @@
-TidalCycles / Haskell modules with Song patterns (drums mostly).
+TidalCycles / Haskell modules of Drum patterns
 
 # Requirements
 
-ghc >= 7.10  
 tidal >= 1.0  
 
 ## installation
@@ -37,19 +36,19 @@ import Sound.Tidal.Drum.Amen as A
 -- Using MIDI
 
 d1 $ stack[
-    mask A.bd $ drum "bd",
-    mask A.sn $ drum "sn",
-    mask A.ch $ drum "ch",
-    mask A.oh $ drum "oh"
+    struct (A.bd) $ drum "bd",
+    struct (A.sn) $ drum "sn",
+    struct (A.ch) $ drum "ch",
+    struct (A.oh) $ drum "oh"
   ] # s "midi" # midichan 9
 
 -- Or using Samples
 
-d1 $ stack[
-    mask A.bd $ s "bd808",
-    mask A.sn $ s "sn808",
-    mask A.ch $ s "ch808",
-    mask A.oh $ s "oh808"
+d1) $ stack[
+    struct (A.bd) $ s "bd808",
+    struct (A.sn) $ s "sn808",
+    struct (A.ch) $ s "ch808",
+    struct (A.oh) $ s "oh808"
   ]
 ```
 
