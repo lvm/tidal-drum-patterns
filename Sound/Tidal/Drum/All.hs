@@ -248,6 +248,8 @@ tracks = [
        "Irregular2a",
        "Irregular2b",
        "Irregular3",
+       "ItaloDisco1a",
+       "ItaloDisco1b",
        "ItsANewDay",
        "Juke",
        "Jungle",
@@ -447,6 +449,10 @@ tracks = [
        "SlowDeepHouse",
        "Steppers",
        "Strbtsdcgogo100",
+       "Supersonic1a",
+       "Supersonic1b",
+       "Supersonic2a",
+       "Supersonic2b",
        "Superstition",
        "Swing1a",
        "Swing2a",
@@ -484,6 +490,7 @@ tracks = [
        "UseMe",
        "UseMeAlt",
        "WalkThisWay",
+       "WeWillRockYou",
        "WhenTheLeveeBreaks",
        "YaMama"
  ]

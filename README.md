@@ -60,7 +60,7 @@ This will print a list of exposed modules.
 Sound.Tidal.Drum.All
 ```
 
-A total of 485 Exposed modules
+A total of 488 Exposed modules
 
 ```haskell
 Sound.Tidal.Drum.Afro1a
@@ -310,6 +310,8 @@ Sound.Tidal.Drum.Irregular1b
 Sound.Tidal.Drum.Irregular2a
 Sound.Tidal.Drum.Irregular2b
 Sound.Tidal.Drum.Irregular3
+Sound.Tidal.Drum.ItaloDisco1a
+Sound.Tidal.Drum.ItaloDisco1b
 Sound.Tidal.Drum.ItsANewDay
 Sound.Tidal.Drum.Juke
 Sound.Tidal.Drum.Jungle
@@ -509,6 +511,10 @@ Sound.Tidal.Drum.Ska1c
 Sound.Tidal.Drum.SlowDeepHouse
 Sound.Tidal.Drum.Steppers
 Sound.Tidal.Drum.Strbtsdcgogo100
+Sound.Tidal.Drum.Supersonic1a
+Sound.Tidal.Drum.Supersonic1b
+Sound.Tidal.Drum.Supersonic2a
+Sound.Tidal.Drum.Supersonic2b
 Sound.Tidal.Drum.Superstition
 Sound.Tidal.Drum.Swing1a
 Sound.Tidal.Drum.Swing2a
@@ -546,6 +552,7 @@ Sound.Tidal.Drum.UnknownDrummer
 Sound.Tidal.Drum.UseMe
 Sound.Tidal.Drum.UseMeAlt
 Sound.Tidal.Drum.WalkThisWay
+Sound.Tidal.Drum.WeWillRockYou
 Sound.Tidal.Drum.WhenTheLeveeBreaks
 Sound.Tidal.Drum.YaMama
 ```
