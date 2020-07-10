@@ -60,7 +60,7 @@ This will print a list of exposed modules.
 Sound.Tidal.Drum.All
 ```
 
-A total of 469 Exposed modules
+A total of 485 Exposed modules
 
 ```haskell
 Sound.Tidal.Drum.Afro1a
@@ -81,9 +81,12 @@ Sound.Tidal.Drum.Afro5c
 Sound.Tidal.Drum.Afro6a
 Sound.Tidal.Drum.Afro6b
 Sound.Tidal.Drum.Afro6c
+Sound.Tidal.Drum.Ageispolis
 Sound.Tidal.Drum.Amen
 Sound.Tidal.Drum.AmenBrother
 Sound.Tidal.Drum.AshleysRoachClip
+Sound.Tidal.Drum.Autobahn1a
+Sound.Tidal.Drum.Autobahn1b
 Sound.Tidal.Drum.Ballad1a
 Sound.Tidal.Drum.Ballad1b
 Sound.Tidal.Drum.Ballad1c
@@ -101,6 +104,8 @@ Sound.Tidal.Drum.Ballad5b
 Sound.Tidal.Drum.Ballad5c
 Sound.Tidal.Drum.BigBeat
 Sound.Tidal.Drum.BillyJean
+Sound.Tidal.Drum.BlueMonday1a
+Sound.Tidal.Drum.BlueMonday2a
 Sound.Tidal.Drum.Blues1a
 Sound.Tidal.Drum.Blues2a
 Sound.Tidal.Drum.BookOfMoses
@@ -141,6 +146,8 @@ Sound.Tidal.Drum.ContemporarySnare2b
 Sound.Tidal.Drum.ContemporarySnare3a
 Sound.Tidal.Drum.ContemporarySnare3b
 Sound.Tidal.Drum.CowdBell
+Sound.Tidal.Drum.DasModel1a
+Sound.Tidal.Drum.DasModel1b
 Sound.Tidal.Drum.DeepHouse
 Sound.Tidal.Drum.DeeperHouse
 Sound.Tidal.Drum.DirtyHouse
@@ -315,13 +322,20 @@ Sound.Tidal.Drum.KnocksOffMyFeet
 Sound.Tidal.Drum.Lady
 Sound.Tidal.Drum.LadyMarmalade
 Sound.Tidal.Drum.LetAWomanBeAWomanLetAManBeAMan
+Sound.Tidal.Drum.LookingForThePerfectBeat1a
+Sound.Tidal.Drum.LookingForThePerfectBeat1b
 Sound.Tidal.Drum.Lookkapypy
 Sound.Tidal.Drum.MiamiBass1
 Sound.Tidal.Drum.MiamiBass2
 Sound.Tidal.Drum.MoreBounceToTheOunce
 Sound.Tidal.Drum.MotherPopcorn
+Sound.Tidal.Drum.MusicNonStop1a
+Sound.Tidal.Drum.MusicNonStop2a
+Sound.Tidal.Drum.MusicNonStop2b
 Sound.Tidal.Drum.NewWave
 Sound.Tidal.Drum.Nico
+Sound.Tidal.Drum.Numbers1a
+Sound.Tidal.Drum.Numbers1b
 Sound.Tidal.Drum.OneDrop
 Sound.Tidal.Drum.OneSevenFiveThirteen
 Sound.Tidal.Drum.OohChild
@@ -508,6 +522,7 @@ Sound.Tidal.Drum.TheFez
 Sound.Tidal.Drum.TheSameBlood
 Sound.Tidal.Drum.TheTrillsGone
 Sound.Tidal.Drum.TinyHouse
+Sound.Tidal.Drum.TransEuroExpress
 Sound.Tidal.Drum.Trap1a
 Sound.Tidal.Drum.Trap1b
 Sound.Tidal.Drum.Twist1a
