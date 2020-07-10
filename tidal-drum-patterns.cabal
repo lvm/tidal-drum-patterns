@@ -11,7 +11,7 @@ maintainer:          Mauro Lizaur <mauro@sdf.org>
 category:            Sound
 build-type:          Simple
 -- extra-source-files:
-cabal-version:       >=1.10
+cabal-version:       2.0
 
 library
   exposed-modules:     Sound.Tidal.Drum.All
@@ -56,12 +56,20 @@ library
                        Sound.Tidal.Drum.Blues1a
                        Sound.Tidal.Drum.Blues2a
                        Sound.Tidal.Drum.BookOfMoses
+                       Sound.Tidal.Drum.BootsNCats
                        Sound.Tidal.Drum.Bossa1a
                        Sound.Tidal.Drum.Bossa1b
                        Sound.Tidal.Drum.Bossa1c
                        Sound.Tidal.Drum.Bossa2a
                        Sound.Tidal.Drum.Bossa2b
                        Sound.Tidal.Drum.Bossa2c
+                       Sound.Tidal.Drum.Bouton
+                       Sound.Tidal.Drum.Break1
+                       Sound.Tidal.Drum.Break2
+                       Sound.Tidal.Drum.Breakbeat1
+                       Sound.Tidal.Drum.Breakbeat2
+                       Sound.Tidal.Drum.Breakbeat3
+                       Sound.Tidal.Drum.BritHouse
                        Sound.Tidal.Drum.ChaChaCha1a
                        Sound.Tidal.Drum.ChaChaCha1b
                        Sound.Tidal.Drum.ChaChaCha1c
@@ -71,7 +79,23 @@ library
                        Sound.Tidal.Drum.ColdSweat
                        Sound.Tidal.Drum.ColdSweatOpening
                        Sound.Tidal.Drum.ComeDancing
+                       Sound.Tidal.Drum.ContemporaryKick1a
+                       Sound.Tidal.Drum.ContemporaryKick1b
+                       Sound.Tidal.Drum.ContemporaryKick2a
+                       Sound.Tidal.Drum.ContemporaryKick2b
+                       Sound.Tidal.Drum.ContemporaryKick3a
+                       Sound.Tidal.Drum.ContemporaryKick3b
+                       Sound.Tidal.Drum.ContemporaryKick4
+                       Sound.Tidal.Drum.ContemporarySnare1a
+                       Sound.Tidal.Drum.ContemporarySnare1b
+                       Sound.Tidal.Drum.ContemporarySnare2a
+                       Sound.Tidal.Drum.ContemporarySnare2b
+                       Sound.Tidal.Drum.ContemporarySnare3a
+                       Sound.Tidal.Drum.ContemporarySnare3b
                        Sound.Tidal.Drum.CowdBell
+                       Sound.Tidal.Drum.DeepHouse
+                       Sound.Tidal.Drum.DeeperHouse
+                       Sound.Tidal.Drum.DirtyHouse
                        Sound.Tidal.Drum.Disco1a
                        Sound.Tidal.Drum.Disco1b
                        Sound.Tidal.Drum.Disco1c
@@ -87,11 +111,48 @@ library
                        Sound.Tidal.Drum.Disco5a
                        Sound.Tidal.Drum.Disco5b
                        Sound.Tidal.Drum.Disco5c
+                       Sound.Tidal.Drum.Dnb1a
+                       Sound.Tidal.Drum.Dnb1b
+                       Sound.Tidal.Drum.Dnb2a
+                       Sound.Tidal.Drum.Dnb3
+                       Sound.Tidal.Drum.Dnb4a
+                       Sound.Tidal.Drum.Dnb4b
+                       Sound.Tidal.Drum.Drumroll1
+                       Sound.Tidal.Drum.Drumroll10
+                       Sound.Tidal.Drum.Drumroll11
+                       Sound.Tidal.Drum.Drumroll12
+                       Sound.Tidal.Drum.Drumroll13
+                       Sound.Tidal.Drum.Drumroll14
+                       Sound.Tidal.Drum.Drumroll15
+                       Sound.Tidal.Drum.Drumroll16
+                       Sound.Tidal.Drum.Drumroll17
+                       Sound.Tidal.Drum.Drumroll18
+                       Sound.Tidal.Drum.Drumroll19
+                       Sound.Tidal.Drum.Drumroll2
+                       Sound.Tidal.Drum.Drumroll3
+                       Sound.Tidal.Drum.Drumroll4
+                       Sound.Tidal.Drum.Drumroll5
+                       Sound.Tidal.Drum.Drumroll6
+                       Sound.Tidal.Drum.Drumroll7
+                       Sound.Tidal.Drum.Drumroll8
+                       Sound.Tidal.Drum.Drumroll9
+                       Sound.Tidal.Drum.Dubstep1a
+                       Sound.Tidal.Drum.Dubstep1b
+                       Sound.Tidal.Drum.DubstepRatcheted
+                       Sound.Tidal.Drum.Electro1a
+                       Sound.Tidal.Drum.Electro1b
+                       Sound.Tidal.Drum.Electro2a
+                       Sound.Tidal.Drum.Electro2b
+                       Sound.Tidal.Drum.Electro3a
+                       Sound.Tidal.Drum.Electro3b
                        Sound.Tidal.Drum.End1a
                        Sound.Tidal.Drum.End1b
                        Sound.Tidal.Drum.ExpensiveShit
                        Sound.Tidal.Drum.ExpressYourself
+                       Sound.Tidal.Drum.Footwork1
+                       Sound.Tidal.Drum.Footwork2
                        Sound.Tidal.Drum.FourOnTheFloor
+                       Sound.Tidal.Drum.FrenchHouse
                        Sound.Tidal.Drum.Funk10a
                        Sound.Tidal.Drum.Funk10b
                        Sound.Tidal.Drum.Funk10c
@@ -146,19 +207,59 @@ library
                        Sound.Tidal.Drum.GenericSon
                        Sound.Tidal.Drum.GenericSoukous
                        Sound.Tidal.Drum.GetUp
+                       Sound.Tidal.Drum.GhostSnare1a
+                       Sound.Tidal.Drum.GhostSnare1b
+                       Sound.Tidal.Drum.GhostSnare2a
+                       Sound.Tidal.Drum.GhostSnare2b
+                       Sound.Tidal.Drum.GoodToGo
                        Sound.Tidal.Drum.GrooveMe
                        Sound.Tidal.Drum.HaitianDivorce
+                       Sound.Tidal.Drum.HalfDrop
                        Sound.Tidal.Drum.Haus
+                       Sound.Tidal.Drum.HipHop
                        Sound.Tidal.Drum.Hiphop
+                       Sound.Tidal.Drum.Hiphop1a
+                       Sound.Tidal.Drum.Hiphop1b
+                       Sound.Tidal.Drum.Hiphop1c
+                       Sound.Tidal.Drum.Hiphop2a
+                       Sound.Tidal.Drum.Hiphop2b
+                       Sound.Tidal.Drum.Hiphop3a
+                       Sound.Tidal.Drum.Hiphop3b
+                       Sound.Tidal.Drum.Hiphop4a
+                       Sound.Tidal.Drum.Hiphop4b
+                       Sound.Tidal.Drum.Hiphop5
+                       Sound.Tidal.Drum.Hiphop6
+                       Sound.Tidal.Drum.Hiphop7
+                       Sound.Tidal.Drum.Hiphop8
                        Sound.Tidal.Drum.HiphopAlt
                        Sound.Tidal.Drum.HookAndSling
                        Sound.Tidal.Drum.HotSweat
+                       Sound.Tidal.Drum.House1a
+                       Sound.Tidal.Drum.House1b
+                       Sound.Tidal.Drum.HybridKick1a
+                       Sound.Tidal.Drum.HybridKick1b
+                       Sound.Tidal.Drum.HybridKick1c
+                       Sound.Tidal.Drum.HybridKick1d
+                       Sound.Tidal.Drum.HybridKick1e
+                       Sound.Tidal.Drum.HybridKick1f
+                       Sound.Tidal.Drum.HybridKick1g
+                       Sound.Tidal.Drum.HybridKick2a
+                       Sound.Tidal.Drum.HybridKick2b
+                       Sound.Tidal.Drum.HybridKick3a
+                       Sound.Tidal.Drum.HybridKick3b
                        Sound.Tidal.Drum.IGotTheFeelin
                        Sound.Tidal.Drum.IGotYou
                        Sound.Tidal.Drum.ImpeachThePresident
+                       Sound.Tidal.Drum.Irregular1a
+                       Sound.Tidal.Drum.Irregular1b
+                       Sound.Tidal.Drum.Irregular2a
+                       Sound.Tidal.Drum.Irregular2b
+                       Sound.Tidal.Drum.Irregular3
                        Sound.Tidal.Drum.ItsANewDay
                        Sound.Tidal.Drum.Juke
                        Sound.Tidal.Drum.Jungle
+                       Sound.Tidal.Drum.Jungle1a
+                       Sound.Tidal.Drum.Jungle1b
                        Sound.Tidal.Drum.JungleAlt
                        Sound.Tidal.Drum.Kick
                        Sound.Tidal.Drum.KissingMyLove
@@ -167,8 +268,14 @@ library
                        Sound.Tidal.Drum.LadyMarmalade
                        Sound.Tidal.Drum.LetAWomanBeAWomanLetAManBeAMan
                        Sound.Tidal.Drum.Lookkapypy
+                       Sound.Tidal.Drum.MiamiBass1
+                       Sound.Tidal.Drum.MiamiBass2
+                       Sound.Tidal.Drum.MoreBounceToTheOunce
                        Sound.Tidal.Drum.MotherPopcorn
+                       Sound.Tidal.Drum.NewWave
                        Sound.Tidal.Drum.Nico
+                       Sound.Tidal.Drum.OneDrop
+                       Sound.Tidal.Drum.OneSevenFiveThirteen
                        Sound.Tidal.Drum.OohChild
                        Sound.Tidal.Drum.PalmGrease
                        Sound.Tidal.Drum.PapaWasToo
@@ -236,6 +343,9 @@ library
                        Sound.Tidal.Drum.Pattern61
                        Sound.Tidal.Drum.Pattern62
                        Sound.Tidal.Drum.Pattern63
+                       Sound.Tidal.Drum.PlanetRock
+                       Sound.Tidal.Drum.Poly1a
+                       Sound.Tidal.Drum.Poly1b
                        Sound.Tidal.Drum.Pop1a
                        Sound.Tidal.Drum.Pop1b
                        Sound.Tidal.Drum.Pop1c
@@ -280,6 +390,7 @@ library
                        Sound.Tidal.Drum.Reggae5a
                        Sound.Tidal.Drum.Reggae5b
                        Sound.Tidal.Drum.Reggae5c
+                       Sound.Tidal.Drum.Reggaeton
                        Sound.Tidal.Drum.RespectYourself
                        Sound.Tidal.Drum.Rock1a
                        Sound.Tidal.Drum.Rock1b
@@ -297,6 +408,27 @@ library
                        Sound.Tidal.Drum.Rock5b
                        Sound.Tidal.Drum.Rock5c
                        Sound.Tidal.Drum.RockSteady
+                       Sound.Tidal.Drum.RockThePlanet
+                       Sound.Tidal.Drum.RollinBreak
+                       Sound.Tidal.Drum.Rolling1
+                       Sound.Tidal.Drum.Rolling10
+                       Sound.Tidal.Drum.Rolling11
+                       Sound.Tidal.Drum.Rolling2
+                       Sound.Tidal.Drum.Rolling3a
+                       Sound.Tidal.Drum.Rolling3b
+                       Sound.Tidal.Drum.Rolling4a
+                       Sound.Tidal.Drum.Rolling4b
+                       Sound.Tidal.Drum.Rolling5a
+                       Sound.Tidal.Drum.Rolling5b
+                       Sound.Tidal.Drum.Rolling6a
+                       Sound.Tidal.Drum.Rolling7a
+                       Sound.Tidal.Drum.Rolling7b
+                       Sound.Tidal.Drum.Rolling7c
+                       Sound.Tidal.Drum.Rolling7d
+                       Sound.Tidal.Drum.Rolling8
+                       Sound.Tidal.Drum.Rolling9a
+                       Sound.Tidal.Drum.Rolling9b
+                       Sound.Tidal.Drum.Sally
                        Sound.Tidal.Drum.Samba1a
                        Sound.Tidal.Drum.Samba1b
                        Sound.Tidal.Drum.Samba1c
@@ -308,14 +440,18 @@ library
                        Sound.Tidal.Drum.Samba3c
                        Sound.Tidal.Drum.Shuffle1a
                        Sound.Tidal.Drum.Shuffle2a
+                       Sound.Tidal.Drum.SiberianNights
                        Sound.Tidal.Drum.Ska1a
                        Sound.Tidal.Drum.Ska1b
                        Sound.Tidal.Drum.Ska1c
+                       Sound.Tidal.Drum.SlowDeepHouse
+                       Sound.Tidal.Drum.Steppers
                        Sound.Tidal.Drum.Strbtsdcgogo100
                        Sound.Tidal.Drum.Superstition
                        Sound.Tidal.Drum.Swing1a
                        Sound.Tidal.Drum.Swing2a
                        Sound.Tidal.Drum.Swing3a
+                       Sound.Tidal.Drum.SynthWave
                        Sound.Tidal.Drum.SynthethicSubstitution
                        Sound.Tidal.Drum.TakeMeToMardiGras
                        Sound.Tidal.Drum.TakeMeToMardiGrasAlt
@@ -323,19 +459,35 @@ library
                        Sound.Tidal.Drum.TheFez
                        Sound.Tidal.Drum.TheSameBlood
                        Sound.Tidal.Drum.TheTrillsGone
+                       Sound.Tidal.Drum.TinyHouse
+                       Sound.Tidal.Drum.Trap1a
+                       Sound.Tidal.Drum.Trap1b
                        Sound.Tidal.Drum.Twist1a
                        Sound.Tidal.Drum.Twist1b
                        Sound.Tidal.Drum.Twist1c
                        Sound.Tidal.Drum.Twist2a
                        Sound.Tidal.Drum.Twist2b
                        Sound.Tidal.Drum.Twist2c
+                       Sound.Tidal.Drum.TwoDrop
+                       Sound.Tidal.Drum.UkGarage1a
+                       Sound.Tidal.Drum.UkGarage1b
+                       Sound.Tidal.Drum.UnconventionalSnare1a
+                       Sound.Tidal.Drum.UnconventionalSnare1b
+                       Sound.Tidal.Drum.UnconventionalSnare2a
+                       Sound.Tidal.Drum.UnconventionalSnare2b
+                       Sound.Tidal.Drum.UnconventionalSnare3a
+                       Sound.Tidal.Drum.UnconventionalSnare3b
+                       Sound.Tidal.Drum.UnconventionalSnare4a
+                       Sound.Tidal.Drum.UnconventionalSnare4b
+                       Sound.Tidal.Drum.UnknownDrummer
                        Sound.Tidal.Drum.UseMe
                        Sound.Tidal.Drum.UseMeAlt
                        Sound.Tidal.Drum.WalkThisWay
                        Sound.Tidal.Drum.WhenTheLeveeBreaks
+                       Sound.Tidal.Drum.YaMama
 
   -- other-modules:
   -- other-extensions:
-  Build-depends: base < 5, tidal
+  Build-depends: base, tidal
   -- hs-source-dirs:
   default-language:    Haskell2010
