@@ -12,7 +12,7 @@ git clone https://github.com/lvm/tidal-drum-patterns \
     && cabal clean \
     && cabal configure \
     && cabal build \
-    && cabal install
+    && cabal install --lib
 ```
 
 ## Usage
